@@ -50,6 +50,7 @@ export const commonTestStyles = StyleSheet.create({
   },
   textBox: {
     borderWidth: 1,
+    // borderRadius: 4,
     height: 25,
     fontSize: 12,
     width: 150,

@@ -21,7 +21,7 @@ export const PresenceBadgeTest: React.FunctionComponent = () => {
       {svgIconsEnabled && (
         <>
           <Text>Presence Badge</Text>
-          <View style={{ flexDirection: 'row', marginEnd: 8 }}>
+          <View style={{ flexDirection: 'row', marginEnd: 8, paddingBottom: 60 }}>
             <PresenceBadge status="available" size={size} outOfOffice={outOfOffice} />
             <PresenceBadge status="blocked" size={size} outOfOffice={outOfOffice} />
             <PresenceBadge status="doNotDisturb" size={size} outOfOffice={outOfOffice} />
